@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            Cuso Javascript
+        </title>
+        <body>            
+            
+            <script>
+                function retornaSexo(sexo){
+                 switch(sexo){
+                     case 'M':
+                        return 'Masculino';
+                    case 'F':
+                        return 'Feminino';
+                    default:
+                        return 'Outro';                    
+                 }
+
+                }
+                
+                var resultado = retornaSexo('M');
+                console.log(resultado);      
+                var resultado = retornaSexo('F');
+                console.log(resultado);    
+                var resultado = retornaSexo('E');
+                console.log(resultado);    
+            </script>
+        </body>
+    </head>
+</html>
